@@ -142,11 +142,6 @@ Hui-Maschine/
     └── bilder/
 ```
 
----
-
-## 🌐 GitHub-Nutzung
-
-Dieses Repository eignet sich ideal zur Veröffentlichung über **GitHub Pages**, da GitHub Markdown-Dateien und statische HTML-Seiten direkt darstellen kann. Dadurch kann das Projekt als übersichtliche Materialseite für Unterricht, Präsentation oder Dokumentation genutzt werden. [web:23][web:25]
 
 ---
 
@@ -162,10 +157,10 @@ Dieses Repository eignet sich ideal zur Veröffentlichung über **GitHub Pages**
 
 ## 📄 Lizenz
 
+MIT
 Dieses Material ist für den schulischen Einsatz erstellt und kann für Unterrichtszwecke angepasst werden.
 
 ---
 
 ## 🙌 Viel Erfolg beim Bauen!
 
-Wenn du magst, ergänze im Ordner `assets/bilder/` noch Werkstattfotos oder Schülerergebnisse – dann wirkt das Repo auf GitHub noch lebendiger. 🚀
