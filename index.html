@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hui‑Maschine – Technikprojekt Sek I</title>
+  <style>
+    :root{--bg:#0f172a;--card:#ffffff;--text:#132238;--muted:#5b6573;--a:#2563eb;--b:#f97316;--c:#10b981;--soft:#f3f7ff}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:linear-gradient(180deg,#eef5ff 0%,#fff 40%);color:var(--text);line-height:1.55}
+    header{background:linear-gradient(135deg,var(--bg),#1e3a8a);color:#fff;padding:40px 20px}
+    .wrap{max-width:1100px;margin:0 auto}
+    .hero{display:grid;grid-template-columns:1.2fr .8fr;gap:24px;align-items:center}
+    .card{background:var(--card);border:1px solid #e8edf5;border-radius:18px;padding:22px;box-shadow:0 10px 30px rgba(15,23,42,.08)}
+    h1{font-size:clamp(2rem,4vw,3.5rem);margin:0 0 10px}
+    h2{margin:0 0 12px;color:#0f172a}
+    p,li{color:var(--text)}
+    .muted{color:var(--muted)}
+    .chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+    .chip{padding:8px 12px;border-radius:999px;font-weight:700;font-size:.95rem}
+    .chip.a{background:#dbeafe;color:#1d4ed8}.chip.b{background:#ffedd5;color:#c2410c}.chip.c{background:#dcfce7;color:#15803d}.chip.d{background:#ede9fe;color:#6d28d9}
+    main{padding:26px 20px 40px}
+    .grid{display:grid;grid-template-columns:1.05fr .95fr;gap:22px;max-width:1100px;margin:0 auto}
+    .full{grid-column:1/-1}
+    table{width:100%;border-collapse:collapse;margin-top:10px}
+    th,td{border-bottom:1px solid #e6ebf2;padding:10px;text-align:left;vertical-align:top}
+    th{background:#f8fbff}
+    ol,ul{margin-top:10px}
+    .callout{border-left:6px solid var(--a);background:#f8fbff}
+    .warn{border-left:6px solid var(--b);background:#fff7ed}
+    .footer{max-width:1100px;margin:18px auto 0;color:#6b7280;font-size:.95rem}
+    a{color:var(--a);text-decoration:none}
+    .logo{max-width:240px;width:100%;display:block;margin:0 auto}
+    @media (max-width:900px){.hero,.grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap hero">
+    <div>
+      <h1>Hui‑Maschine 🔊🪵🛠️</h1>
+      <p class="muted" style="color:#dbeafe;font-size:1.1rem">Technikprojekt für Sekundarstufe I · Bildungsplan BW 2016 · Werkstoffe und Produkte · Medienbildung</p>
+      <div class="chips">
+        <span class="chip a">#SekI</span>
+        <span class="chip b">#Technik</span>
+        <span class="chip c">#Medienbildung</span>
+        <span class="chip d">#Bildungsplan2016</span>
+      </div>
+    </div>
+    <div class="card" style="text-align:center">
+      <img class="logo" src="assets/hui_logo.png" alt="Logo Hui‑Maschine">
+      <p class="muted">Passendes Logo für Repository, Arbeitsblatt und GitHub Pages.</p>
+    </div>
+  </div>
+</header>
+<main>
+  <div class="grid">
+    <section class="card full callout">
+      <h2>Projektidee</h2>
+      <p>Die Schülerinnen und Schüler bauen eine einfache Hui‑Maschine aus Holz. Dabei werden Messen, Sägen, Feilen, Bohren, Schleifen und Montieren praktisch eingeübt. Das Projekt ist kurz, motivierend und gut differenzierbar.</p>
+    </section>
+
+    <section class="card">
+      <h2>Material</h2>
+      <table>
+        <tr><th>Anzahl</th><th>Material</th><th>Maße</th></tr>
+        <tr><td>1</td><td>Vierkant‑Profilstab</td><td>ca. 10 × 10 × 270 mm</td></tr>
+        <tr><td>1</td><td>Rundstab Hartholz</td><td>200 mm, Ø 6 mm</td></tr>
+        <tr><td>1</td><td>Holzleiste</td><td>ca. 15 × 2 × 70 mm</td></tr>
+        <tr><td>1</td><td>Nagel oder Schraube</td><td>ca. 2 mm</td></tr>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2>Werkzeuge</h2>
+      <ul>
+        <li>Feinsäge oder Laubsäge</li>
+        <li>Dreikantfeile, Rundfeile</li>
+        <li>Bohrmaschine oder Handbohrer</li>
+        <li>Schleifpapier, Lineal, Bleistift</li>
+        <li>Schutzbrille, Zwinge, Spannvorrichtung</li>
+      </ul>
+    </section>
+
+    <section class="card full">
+      <h2>Bauanleitung</h2>
+      <ol>
+        <li>Holzteile auf die vorgesehenen Längen sägen.</li>
+        <li>Am Vierkantstab an einer Längskante ca. 15 Markierungen im Abstand von etwa 8 mm anzeichnen.</li>
+        <li>Die erste Markierung etwa 40 mm vom vorderen Ende mit Propeller setzen.</li>
+        <li>Markierungen 2 bis 3 mm mit der Dreikantfeile vertiefen und mit der Rundfeile nacharbeiten.</li>
+        <li>In die Stirnseite ein Loch für die Propellerbefestigung bohren.</li>
+        <li>Propeller gestalten, mittig bohren und aussägen; Bohrung ca. 1 mm größer als der Nageldurchmesser.</li>
+        <li>Alle Teile schleifen und die Hui‑Maschine zusammenbauen.</li>
+      </ol>
+    </section>
+
+    <section class="card warn">
+      <h2>Sicherheit</h2>
+      <ul>
+        <li>Schutzbrille immer tragen.</li>
+        <li>Werkstücke beim Bohren und Sägen sicher einspannen.</li>
+        <li>Fingerabstand zur Säge- und Bohrstelle beachten.</li>
+        <li>Werkzeuge nur kontrolliert und ruhig führen.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Bildungsplanbezug</h2>
+      <p>Das Projekt passt zum Bereich Werkstoffe und Produkte: planen, fertigen, bewerten und optimieren. Zusätzlich wird Medienbildung über Dokumentation und Präsentation integriert. [web:17][web:9]</p>
+    </section>
+
+    <section class="card">
+      <h2>Download</h2>
+      <p><a href="assets/HuiMaschine.pdf">Original-PDF öffnen oder herunterladen</a></p>
+      <p class="muted">Ideal für GitHub Pages oder den Klassenraum-PC.</p>
+    </section>
+  </div>
+</main>
+</body>
+</html>
