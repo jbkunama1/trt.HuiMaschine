@@ -1,1 +1,1 @@
-(Anleitung.png)
+!(Anleitung.png)
