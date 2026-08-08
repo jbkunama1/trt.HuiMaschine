@@ -1,6 +1,6 @@
 # 🌪️ Hui‑Maschine  
 ### *Sprachsteuerung mal ganz anders!* 🔊🪵🛠️
-[![Buy me a coffee](https://cdn.buymeacoffee.com/buttons/default-orange.png)](https://www.buymeacoffee.com/highfish)
+[![Buy me a coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/highfish)
 <p align="center">
   <img src="assets/hui_logo.png" alt="Hui-Maschine Logo" width="220">
 </p>
